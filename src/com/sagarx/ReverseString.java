@@ -7,8 +7,14 @@ public class ReverseString {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+String str= "abc123";
+
+System.out.println("Original String: " + str);
+
+str= new StringBuffer(str).reverse().toString();
+
+System.out.println("Reversed String: " + str);
 	}
 
 }
